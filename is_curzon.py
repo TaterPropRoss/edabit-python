@@ -3,4 +3,5 @@ def is_curzon(num):
 	powerNum = 1 + setNum ** num
 	multNum = 1 + setNum * num
 	remainder = bool(powerNum % multNum) # check if there is a remainder
+    #a change
 	return not(remainder)

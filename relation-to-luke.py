@@ -10,12 +10,12 @@ R2D2	    droid
 
 def relation_to_luke(name):
     if name == "Darth Vader":
-        return "Luke, I am your father"
+        return "Luke, I am your father."
     elif name == "Leia":
-        return "Luke, I am your sister"
+        return "Luke, I am your sister."
     elif name == "Han":
-        return "Luke, I am your brother in law"
+        return "Luke, I am your brother in law."
     elif name == "R2D2":
-        return "Luke, I am your droid"
+        return "Luke, I am your droid."
     else: 
-        return "Luke, I don't know you"
+        return "Luke, I don't know you."
